@@ -3,6 +3,7 @@ import random
 import discord
 import asyncio
 from discord.ext import commands
+import os
 
 # creates a bot instance with "$" as the command prefix
 bot = commands.Bot("/")
@@ -76,4 +77,4 @@ if __name__ == '__cogs__':
 
 
 # starts the bot with the corresponding token
-bot.run(TOKEN)
+bot.run(os.getenv('TOKEN'))
