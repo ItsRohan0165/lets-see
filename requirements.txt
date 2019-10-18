@@ -4,3 +4,4 @@ typing
 pylast
 colorgram.py
 requests
+pycopy-imghdr
